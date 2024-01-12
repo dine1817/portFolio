@@ -88,7 +88,13 @@
         flex-wrap: wrap;
     }
 }
-@media screen  and (max-width: 1380px){
+@media screen  and (max-width: 1355px){
+    #profile{
+        display: none;
+    }
+    #profile2{
+        display: block;
+    }
     #desktop-nav{
         display: none;
     }
@@ -98,7 +104,7 @@
     #skills,.skills-details-container{
         margin-top: 2rem;
     }
-    #profile,.section-container{
+    #profile2,.section-container{
         display: block;
     }
     .arrow{
@@ -124,7 +130,7 @@
     #contact,footer{
         height: 40vh;
     }
-    #profile{
+    #profile2{
         height: 83vh;
         margin-bottom: 0;
     }
@@ -137,6 +143,9 @@
     }
     .about-containers, .contact-info-upper-container,btn-container{
         flex-wrap: wrap;
+    }
+    .contact-info-upper-container{
+        padding: 11px 1px;
     }
     .contact-info-container{
         margin: 0;
@@ -171,7 +180,11 @@
     }
 }
 
-
+@media screen  and (max-width: 800px){
+    .experience_education{
+        flex-direction: column;
+    }
+}
 
 
 
