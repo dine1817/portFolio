@@ -10,8 +10,8 @@
         margin-right: 35px;
     }
     .menu-links a{
-        margin-right: 50px;
-        font-size: 1.3rem;
+        /* margin-right: 50px; */
+        font-size: 1.1rem;
     }
     .menu-links.open{
         max-height: 350px;
@@ -38,8 +38,8 @@
         width: 26px;
     }
     .menu-links a{
-        margin-right: 20px;
-        font-size: 1.2rem;
+        /* margin-right: 20px; */
+        font-size: 1.05rem;
     }
     .menu-links.open{
         max-height: 300px;
@@ -66,8 +66,7 @@
         width: 24px;
     }
     .menu-links a{
-        margin-right: 15px;
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
     .menu-links.open{
         max-height: 250px;
@@ -126,7 +125,7 @@
     }
 }
 
-@media screen  and (max-width: 600px){
+@media screen  and (max-width: 700px){
     #contact,footer{
         height: 40vh;
     }
@@ -163,6 +162,9 @@
         flex-direction: column;
         gap: 0.5rem;
         text-align: center;
+    }
+    .menu-links a{
+        margin-right: 0.3rem;
     }
     .foot-links{
         flex-direction: column;

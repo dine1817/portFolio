@@ -41,7 +41,7 @@ nav{
 a{
     color: #FFC20E;
     text-decoration: none;
-    text-decoration-color: white;
+    text-decoration-color: #FFC20E;
     padding: 0px 15px;
     border-radius: 45px;
 }
@@ -94,24 +94,36 @@ a:hover{
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: white;
+    background: none;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
+    border-radius: 10px;
 }
 .menu-links li{
     list-style: none;
+    padding: 10px 0px;
+}
+.menu-links > li > a{
+    padding: 0px 10px;
+    text-decoration-color: #FFC20E;
 }
 .menu-links a{
     display: block;
-    padding: 10px;
     text-align: center;
-    margin-right: 60px;
+    margin-right: 3.5rem;
     font-size: 1.5rem;
-    color: black;
+    color: #FFC20E;
     text-decoration: none;
     transition: all 0.3 ease-in-out;
+}
+.menu-links > li > a:hover{
+    color: #FFC20E;
+    background: none;
+    text-decoration: underline;
+    text-decoration-color: #FFC20E;
+    text-underline-offset: 0.5rem;
 }
 .menu-links.open{
     max-height: 500px;
@@ -316,7 +328,21 @@ section{
     width: 400px;
     margin: auto 0;
 }
-
+.text-container > p > span{
+    color: #FFC20E;
+}
+.text-container > p{
+    font-size: 1.05rem;
+}
+.text-container > p > a{
+    text-decoration-color: #FFC20E;
+}
+.text-container > p > a:hover{
+    background: none;
+    color: #FFC20E;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+}
 /* *********************************************** */
 
 /* Skills Section */
@@ -352,7 +378,7 @@ article .icon{
 }
 .icon6{
     height: 1.5rem;
-    margin-top: 0.1rem;
+    margin-top: 0.9rem;
 }
 .bicon,.ficon{
     cursor: default;
@@ -370,7 +396,8 @@ article .icon{
     position: relative;
 }
 .color-container{
-    border-color: #a1c0e9;
+    border-color: #05244d;
+    background-color: #a1c0e9;
 }
 .project-img{
     border-radius: 2rem;
@@ -379,21 +406,22 @@ article .icon{
 }
 .project-title{
     margin: 1rem;
+    color: #05244d;
 }
 .project-btn{
     color: #05244d;
     border-color: #05244d;
 }
 .btn-color3{
+    cursor: pointer;
     border: none;
-    border: 0.1rem  solid #a1c0e9;
-    background-color: #05244d;
-    color: #a1c0e9;
+    border: 0.1rem  solid #05244d;
+    background-color: #FFC20E;
+    color: #05244d;
 }
 .btn-color3:hover{
-    background-color: #a1c0e9;
-    color: #05244d;
-    border-color: #05244d;
+    background-color: #05244d;
+    color: #FFC20E;
 }
 /* ******************************************** */
 /* Contact */
@@ -416,7 +444,7 @@ article .icon{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 0.3rem;
     margin: 1rem;
 }
 .contact-info-container p{
@@ -425,6 +453,7 @@ article .icon{
 .contact-info-container > p > a{
     color: #a1c0e9;
     text-decoration-color: #a1c0e9;
+    padding: 0;
 }
 .contact-info-container > p > a:hover{
     background: none;
