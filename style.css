@@ -212,8 +212,8 @@ section{
     border-radius: 50%;
 }
 .icon1:hover{
-    background-color: #a1c0e9;
-    border: #a1c0e9 0.1rem solid;
+    background-color: #05244d;
+    border: #FFC20E 0.1rem solid;
 }
 .icon2:hover{
     background-color: #05244d;
@@ -287,20 +287,15 @@ section{
     right: -5rem;
     bottom: 2.5rem;
 }
-.icon3{
+.icon3,.icon4{
     height: 3rem;
     background-color: #FFC20E;
     border: 0.3rem solid #FFC20E;
     border-radius: 50%;
-}
-.icon4{
-    height: 3rem;
-    background-color: #FFC20E;
-    border: 0.3rem solid #FFC20E;
-    border-radius: 50%;
+    cursor: default;
 }
 .icon5{
-    height: 4rem;
+    height: 3.75rem;
     background-color: #FFC20E;
     border: 0.1rem solid #FFC20E;
     border-radius: 50%;
@@ -356,10 +351,8 @@ article .icon{
     cursor: default;
 }
 .icon6{
-    height: 2.4rem;
-    background-color: #a1c0e9;
-    margin-top: 0.6rem;
-    border-radius: 50%;
+    height: 1.5rem;
+    margin-top: 0.1rem;
 }
 .bicon,.ficon{
     cursor: default;
@@ -386,13 +379,22 @@ article .icon{
 }
 .project-title{
     margin: 1rem;
-    color: black;
 }
 .project-btn{
-    color: black;
-    border-color: #a1c0e9;
+    color: #05244d;
+    border-color: #05244d;
 }
-
+.btn-color3{
+    border: none;
+    border: 0.1rem  solid #a1c0e9;
+    background-color: #05244d;
+    color: #a1c0e9;
+}
+.btn-color3:hover{
+    background-color: #a1c0e9;
+    color: #05244d;
+    border-color: #05244d;
+}
 /* ******************************************** */
 /* Contact */
 
@@ -420,10 +422,25 @@ article .icon{
 .contact-info-container p{
     font-size: larger;
 }
+.contact-info-container > p > a{
+    color: #a1c0e9;
+    text-decoration-color: #a1c0e9;
+}
+.contact-info-container > p > a:hover{
+    background: none;
+    text-decoration: underline;
+    text-decoration-color: #a1c0e9;
+    text-underline-offset: 0.5rem;
+}
 .contact-icon{
     cursor: default;
 }
-
+.icon8,.icon7{
+    height: 2.5rem;
+    background-color: #FFC20E;
+    border: 0.1rem solid #FFC20E;
+    border-radius: 50%;
+}
 
 /* **************************** */
 /* Footer */
@@ -442,6 +459,14 @@ footer p{
     gap: 1.3rem;
     list-style: none;
     font-size: 1.3rem;
+}
+.foot-links > li > a{
+    text-decoration-color: #FFC20E;
+}
+.foot-links > li > a:hover{
+    text-decoration: underline;
+    text-decoration-color: #FFC20E;
+    text-underline-offset: 1.5rem;
 }
 
 /* **************************** */
