@@ -212,24 +212,11 @@ section{
     cursor: pointer;
 }
 .icon1{
-    height: 2.5rem;
-    background-color: #FFC20E;
-    border: 0.1rem solid #FFC20E;
-    border-radius: 50%;
+    height: 2.7rem;
 }
 .icon2{
-    height: 2.5rem;
-    background-color: #a1c0e9;
-    border: 0.1rem solid #a1c0e9;
+    height: 2.725rem;
     border-radius: 50%;
-}
-.icon1:hover{
-    background-color: #05244d;
-    border: #FFC20E 0.1rem solid;
-}
-.icon2:hover{
-    background-color: #05244d;
-    border: #a1c0e9 0.1rem solid;
 }
 /* Buttons */
 .btn-container{
@@ -308,9 +295,6 @@ section{
 }
 .icon5{
     height: 3.75rem;
-    background-color: #FFC20E;
-    border: 0.1rem solid #FFC20E;
-    border-radius: 50%;
 }
 .details-container{
     padding: 1.2rem;
@@ -423,6 +407,18 @@ article .icon{
     background-color: #05244d;
     color: #FFC20E;
 }
+.btn-color4{
+    cursor: pointer;
+    border: none;
+    border: 0.1rem  solid #a1c0e9;
+    background-color: #05244d;
+    color: #a1c0e9;
+}
+.btn-color4:hover{
+    background-color: #FFC20E;
+    color: #05244d;
+    border-color: #05244d;
+}
 /* ******************************************** */
 /* Contact */
 
@@ -464,11 +460,14 @@ article .icon{
 .contact-icon{
     cursor: default;
 }
-.icon8,.icon7{
+.icon7{
     height: 2.5rem;
     background-color: #FFC20E;
     border: 0.1rem solid #FFC20E;
     border-radius: 50%;
+}
+.icon8{
+    height: 2.5rem;
 }
 
 /* **************************** */
@@ -510,7 +509,22 @@ body{
 }
 
 
-
+/* Scroll Bar */
+::-webkit-scrollbar{
+    width: 0.5rem;
+}
+::-webkit-scrollbar-track{
+    background: none;
+}
+::-webkit-scrollbar-thumb{
+    background: #a1c0e97e;
+    border-radius: 15px;
+    
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #ffc30ef0;
+    transition: all 0.3 ease-in-out;
+}
 
 
 

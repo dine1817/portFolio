@@ -22,6 +22,9 @@
     .hamburger-icon.open span:last-child{
         transform: rotate(-45deg) translate(12px, -4px);
     }
+    .details-container{
+        padding: 0.5rem;
+    }
 }
 @media screen  and (max-width: 400px){
     #logoImage > img{
@@ -49,6 +52,14 @@
     }
     .hamburger-icon.open span:last-child{
         transform: rotate(-45deg) translate(7px, -6px);
+    }
+}
+@media screen  and (max-width: 370px){
+    .contact-info-container > p > a{
+        font-size: 0.75rem;
+    }
+    .contact-icon{
+        height: 2.5rem;;
     }
 }
 @media screen  and (max-width: 300px){
@@ -147,7 +158,7 @@
         padding: 11px 1px;
     }
     .contact-info-container{
-        margin: 0;
+        margin: 0.3rem;
     }
     .contact-info-container p, .nav-links li a{
         font-size: 1rem;
